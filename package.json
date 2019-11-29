@@ -1,0 +1,10 @@
+{
+  "name": "lpweb-lista",
+  "version": "1.0.0",
+  "description": "Resolução do lab 02 de lpweb 2019.2 ifma",
+  "main": "index.js",
+  "repository": "https://github.com/mauro-pinheiro/lista-javascript.git",
+  "author": "Mauro Pinheiro",
+  "license": "MIT",
+  "private": false
+}
