@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <script src="https://kit.fontawesome.com/598d73746c.js" crossorigin="anonymous"></script>
+  <title>Questão 2</title>
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <label>
+        <span>Idade:</span>
+        <input id="input" type="number" placeholder="Digite a idade" />
+      </label>
+      <button id="addButton"><i class="fas fa-plus"></i></button>
+    </fieldset>
+  </form>
+
+  <table>
+    <caption>
+      <ul>
+        <li>
+          <input id="conta-maior-18" type="number" readonly placeholder="Número de maiores de 18 anos" />
+        </li>
+        <li>
+          <input id="conta-menor-18" type="number" readonly placeholder="Número de menores de 18 anos" />
+        </li>
+      </ul>
+    </caption>
+    <thead>
+      <th>Idade</th>
+      <th>Remover</th>
+    </thead>
+    <tbody id="output">
+
+    </tbody>
+  </table>
+  <script src="2.js"></script>
+
+</body>
+
+</html>

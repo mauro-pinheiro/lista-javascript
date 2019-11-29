@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/598d73746c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="4.dart.js"></script>
+    <title>Questão 4</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <label>
+          <span>Código:</span>
+          <input
+            id="codigo"
+            type="number"
+            placeholder="Digite um código de produto"
+            min="100"
+          />
+        </label>
+        <label>
+          <span>Quantidade:</span>
+          <input
+            id="qtde"
+            type="text"
+            placeholder="Digite a Quantidade"
+            min="0"
+          />
+        </label>
+        <button id="calcButton"><i class="fas fa-check"></i></button>
+        <input type="text" readonly id="error" />
+      </fieldset>
+
+      <fieldset>
+        <label>
+          <span>Valor Total: </span>
+          <input
+            id="valor-total"
+            type="number"
+            placeholder="Valor total"
+            readonly
+          />
+        </label>
+      </fieldset>
+    </form>
+
+    <table id="output">
+      <caption>
+        Cardápio
+      </caption>
+      <th>Especificação</th>
+      <th>Código</th>
+      <th>Preço</th>
+    </table>
+  </body>
+</html>
