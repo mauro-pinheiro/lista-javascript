@@ -1,38 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/598d73746c.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Questão 3</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <script src="https://kit.fontawesome.com/598d73746c.js" crossorigin="anonymous"></script>
-  <title>Questão 3</title>
-</head>
+  <body>
+    <form>
+      <fieldset>
+        <label>
+          <span>Nome:</span>
+          <input id="input" type="text" placeholder="Digite um nome" />
+        </label>
+        <button id="addButton"><i class="fas fa-plus"></i></button>
+      </fieldset>
+    </form>
 
-<body>
-  <form>
-    <fieldset>
-      <label>
-        <span>Nome:</span>
-        <input id="input" type="text" placeholder="Digite um nome" />
-      </label>
-      <button id="addButton"><i class="fas fa-plus"></i></button>
-    </fieldset>
-  </form>
-
-  <table>
-    <caption>
-      Nomes em ordem invertida
-    </caption>
-    <thead>
-      <th>Idade</th>
-      <th>Remover</th>
-    </thead>
-    <tbody id="output">
-
-    </tbody>
-  </table>
-  <script src="3.js"></script>
-</body>
-
+    <table>
+      <caption>
+        Nomes em ordem invertida
+      </caption>
+      <thead>
+        <th>Nome</th>
+        <th>Remover</th>
+      </thead>
+      <tbody id="output"></tbody>
+    </table>
+    <script src="3.js"></script>
+  </body>
 </html>
