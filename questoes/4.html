@@ -15,23 +15,17 @@
 <body class="container">
   <form class="form">
     <fieldset class="form-group">
-      <label>
-        <span>Código:</span>
-        <input id="codigo" type="number" placeholder="Digite um código de produto" min="100" />
-      </label>
-      <label>
-        <span>Quantidade:</span>
-        <input id="qtde" type="text" placeholder="Digite a Quantidade" min="0" />
-      </label>
+      <label for="codigo">Código:</label>
+      <input name="codigo" id="codigo" type="number" placeholder="Digite um código de produto" min="100" />
+      <label for="qtde">Quantidade:</label>
+      <input name="qtde" id="qtde" type="text" placeholder="Digite a Quantidade" min="0" />
       <button id="calcButton"><i class="fas fa-check"></i></button>
       <input type="text" readonly id="error" />
     </fieldset>
 
     <fieldset>
-      <label>
-        <span>Valor Total: </span>
-        <input id="valor-total" type="number" placeholder="Valor total" readonly />
-      </label>
+      <label for="valor-total">Valor Total: </label>
+      <input name="valor-total" id="valor-total" type="number" placeholder="Valor total" readonly />
     </fieldset>
   </form>
 
