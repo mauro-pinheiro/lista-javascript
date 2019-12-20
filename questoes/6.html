@@ -6,26 +6,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <script src="https://kit.fontawesome.com/598d73746c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/bootstrap-theme.css">
+  <link rel="stylesheet" href="../css/style.css">
   <title>Questão 4</title>
 </head>
 
-<body>
-  <form>
+<body class="container">
+  <form class="form">
     <fieldset>
       <legend>Lanchonete do IFMA</legend>
-      <label>
-        <span>Nome do Cliente:</span>
-        <input id="nome" type="text" />
-      </label>
+      <div class="form-group">
+        <label for="nome">Nome do Cliente:</label>
+        <input class="form-control" id="nome" type="text" />
+      </div>
       <div id="bebidas">
-        Bebidas:
+        <label>Bebidas:</label>
       </div>
       <div id="doces-salgados">
-        Doces e Salgado:
+        <label>Doces e Salgado:</label>
       </div>
-      <div>
-        <button id="calc-button">Calcular</i></button>
-        <button id="clean-button">Limpar</i></button>
+      <div class="text-center">
+        <button class="btn btn-primary" id="calc-button">Calcular</i></button>
+        <button class="btn btn-default" id="clean-button">Limpar</i></button>
       </div>
     </fieldset>
 

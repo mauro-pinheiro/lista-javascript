@@ -21,3 +21,8 @@ document.querySelector("#addButton").addEventListener("click", function(event) {
   row.append(buttonData);
   table.append(row);
 });
+
+function q01(elemento) {
+  elemento.innerHTML = `
+  `;
+}

@@ -6,16 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <script src="https://kit.fontawesome.com/598d73746c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/bootstrap-theme.css">
+  <link rel="stylesheet" href="../css/style.css">
   <title>Questão 01</title>
 </head>
 
-<body>
-  <form>
-    <fieldset>
-      <label>
-        <span>Número:</span>
-        <input id="input" type="number" placeholder="Digite um número" />
-      </label>
+<body class="container">
+  <form class="form" style="margin-top: 2rem;">
+    <fieldset class="form-group">
+      <label for="numero">Número:</label>
+      <input id="input" type="number" placeholder="Digite um número" name="numero" />
       <button id="addButton"><i class="fas fa-plus"></i></button>
     </fieldset>
   </form>
